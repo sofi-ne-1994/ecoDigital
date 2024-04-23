@@ -1,0 +1,43 @@
+//INTRO
+.intro{
+    background-color:  #3E998A ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+//MENU  
+.menu{
+    .navbar-toggler{
+        border: transparent ;
+    }
+}
+
+//BANNER
+.banner{
+    padding: 0;
+    img{
+        width: 100%;
+    }
+}
+
+//SECONDARY NAV
+.secondary-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ul{
+        display: flex;
+        li{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: .8em;
+            border: solid 1px $mainColor;
+            border-radius: 8px;
+            list-style: none;
+        }
+    }
+}

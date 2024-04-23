@@ -1,16 +1,16 @@
 {
-  "name": "ecodigitaaal",
+  "name": "ecoooo",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass",
-		"sass:watch": "sass --watch assets/styles/scss/main.scss  assets/styles/main.css"
+    "sass:watch": "sass --watch assets/styles/scss/main.scss  assets/styles/main.css"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "sass": "^1.75.0"
-  }
+  },
+  "description": ""
 }

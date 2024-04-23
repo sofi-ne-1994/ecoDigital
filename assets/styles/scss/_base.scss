@@ -1,0 +1,36 @@
+//COLORS 
+$mainColor: #3E998A;
+$secondaryColor: #6AC091;
+$keyColor: #084C59;
+$thirdColor: #AFE6A2;
+$fourthColor: #B8E68C;
+$white: white;
+
+
+//FONTS
+$mainFont: "Roboto", sans-serif;
+
+//CLASES
+.text-light{
+    font-family: $mainFont;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.text-regular{
+    font-family: $mainFont;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text-bold{
+    font-family: $mainFont;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+//ULITIES
+.container{
+    width: 98%;
+}
