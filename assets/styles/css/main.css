@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+.text-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.text-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.container {
+  width: 98%;
+}
+
+.intro {
+  background-color: #3E998A;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu .navbar-toggler {
+  border: transparent;
+}
+
+.banner {
+  padding: 0;
+}
+.banner img {
+  width: 100%;
+}
+
+.secondary-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondary-nav ul {
+  display: flex;
+  padding: 0;
+  gap: 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+.secondary-nav ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8em;
+  border: solid 1px #3E998A;
+  border-radius: 8px;
+  list-style: none;
+  text-align: center;
+  width: 33%;
+}
+.secondary-nav ul li:hover {
+  background-color: #3E998A;
+}
+.secondary-nav ul li a {
+  text-decoration: none;
+}
+.secondary-nav ul li span {
+  display: block;
+}
+
+.carousel {
+  margin-left: 18px;
+}
+.carousel .slider figure {
+  border: solid #3E998A 1px;
+  border-radius: 10px;
+  margin-right: 5px;
+  gap: 10px;
+}
+.carousel .slider figure img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.carousel .slider figure figcaption {
+  font-size: 1.1em;
+  color: black;
+  font-weight: 400;
+  text-align: center;
+}
+
+.reviews {
+  margin-left: 18px;
+  margin-bottom: 30px;
+}
+.reviews .slider article {
+  background-color: #AFE6A2;
+  border-radius: 10px;
+  padding: 8px;
+  margin-right: 5px;
+}
+.reviews .slider article span {
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+/*# sourceMappingURL=main.css.map */
