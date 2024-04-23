@@ -17,6 +17,8 @@
 //BANNER
 .banner{
     padding: 0;
+
+
     img{
         width: 100%;
     }
@@ -29,7 +31,12 @@
     align-items: center;
     ul{
         display: flex;
+        padding: 0;
+        gap: 10px;
+        width: 100%;
+        justify-content: space-between;
         li{
+            
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -38,6 +45,64 @@
             border: solid 1px $mainColor;
             border-radius: 8px;
             list-style: none;
+            text-align: center;
+            width: 33%;
+            // background-color: $thirdColor;
+            &:hover{
+                background-color: $mainColor;
+            }
+            a{
+                text-decoration: none;
+                
+            }
+            span{
+                display: block;
+            }
+        }
+    }
+}
+
+//CAROUSEL SLICK
+.carousel{
+    margin-left: 18px;
+    .slider{
+        figure{
+            border: solid $mainColor 1px;
+            border-radius: 10px;
+            margin-right: 5px;
+            gap: 10px;
+            img{
+                width: 100%;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+            figcaption{
+                font-size: 1.1em;
+                color: black;
+                font-weight: 400;
+                text-align: center;
+
+            }
+            
+        }
+    }
+}
+
+
+// REVIEWS
+.reviews{
+    margin-left: 18px;
+    margin-bottom: 30px;
+    .slider{
+        article{
+            background-color: $thirdColor;
+            border-radius: 10px;
+            padding: 8px;
+            margin-right: 5px;
+            span{
+                font-weight: 600 ;
+                margin-left:5px ;
+            }
         }
     }
 }
